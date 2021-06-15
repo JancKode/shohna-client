@@ -10,7 +10,14 @@ export const ar = {
       activation: `ﺗﻢ إرﺳﺎل اﻟﺮﻣﺰ اﻟﺨﺎص ﺑﻚ اﻟﻰ رﻗﻢ اﻟﺠﻮال 
       0551231231`,
       mobileNumber: '0551231231',
-      resendText: 'Resend the code within 59:02',
+      resendText: 'أﻋﺎدة ارﺳﺎل اﻟﺮﻣﺰ ﺧﻠﺎل 59:02',
+      success: 'ﺗﻢ ﺗﺴﺠﻴﻠﻚ ﺑﻨﺠﺎح',
+      successInfo: `، ﺎﺒﻳﺮﻗ ﻚﺑﺎﺴﺣ ﻖﻴﺛﻮﺗو ﻚﺗﺎﻣﻮﻠﻌﻣ ﺔﻌﺟاﺮﻣ ﻢﺘﻳ فﻮﺳ
+      بﺎﺴﺤﻟا ﻖﻴﺛﻮﺗ ﺪﻨﻋ ﻚﻟ رﺎﻌﺷإ لﺎﺳرإ ﻢﺘﻳ فﻮﺳ`,
+      bankAgreement: `ﻣﻦ ﺧﻠﺎل اﻟﻤﺘﺎﺑﻌﺔ ، أؤﻛﺪ أﻧﻨﻲ ﻗﺪ ﻗﺮأت وواﻓﻘﺖ ﻋﻠﻰ اﻟﺸﺮوط 
+      واﻟﺄﺣﻜﺎم وﺳﻴﺎﺳﺔ اﻟﺨﺼﻮﺻﻴﺔ
+      `,
+      bankInfo: 'bank info',
     },
     fields: {
       mobileNumber: 'رﻗﻢ اﻟﺠﻮال',
@@ -21,11 +28,16 @@ export const ar = {
       photoLicense: 'ﻧﺴﺨﺔ ﻣﻦ رﺧﺼﺔ اﻟﻘﻴﺎدة',
       photoCar: 'صورة من استمارة السيارة',
       repeatPassword: 'إﻋﺎدة ﻛﻠﻤﺔ اﻟﻤﺮور',
+      bankName: 'ﺑﻨﻚ اﻟﺮاﺟﺤﻲ',
+      accountName: 'account name',
+      accountNumber: 'aرﻗﻢ اﻟﺤﺴﺎب',
     },
     actions: {
       login: 'ﺗﺴﺠﻴﻞ اﻟﺪﺧﻮل',
       register: 'تسجيل',
       send: 'تسجيل',
+      start: 'البدء',
+      next: 'التالي',
     },
   },
 };

@@ -2,11 +2,13 @@ import React from 'react';
 
 import {createStackNavigator} from '@react-navigation/stack';
 
-import Login from '../../features/account/screens/Login/Login';
-import CreateAccount from '../../features/account/screens/CreateAccount/CreateAccount';
-import OneTimePin from '../../features/account/screens/OnetimePin/OneTimePin';
-import LoginSuccess from '../../features/account/screens/Login/Login-success';
-import AccountScreen from '../../features/account/screens/Account.screen';
+import Login from '../../features/account/screens/login/login';
+import CreateAccount from '../../features/account/screens/createAccount/createAccount';
+import OneTimePin from '../../features/account/screens/onetimePin/oneTimePin';
+import LoginSuccess from '../../features/account/screens/login/login-success';
+import AccountScreen from '../../features/account/screens/account.screen';
+
+import BankForm from '../../features/bank/screens/bank-form/bank-form';
 
 const Stack = createStackNavigator();
 
@@ -17,7 +19,8 @@ const AccountNavigator = () => {
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="CreateAccount" component={CreateAccount} />
       <Stack.Screen name="OneTimePin" component={OneTimePin} />
-      {/* <Stack.Screen name="LoginSuccess" component={LoginSuccess} /> */}
+      <Stack.Screen name="LoginSuccess" component={LoginSuccess} />
+      <Stack.Screen name="BankForm" component={BankForm} />
     </Stack.Navigator>
   );
 };
