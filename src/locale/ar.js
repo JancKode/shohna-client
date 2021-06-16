@@ -18,6 +18,10 @@ export const ar = {
       واﻟﺄﺣﻜﺎم وﺳﻴﺎﺳﺔ اﻟﺨﺼﻮﺻﻴﺔ
       `,
       bankInfo: 'bank info',
+      noInternet: 'ﻟﺎﻳﻮﺟﺪ ﻟﺪﻳﻚ اﺗﺼﺎل اﻧﺘﺮﻧﺖ',
+      noInternetInfo: `اﺗﺼﺎﻟﻚ ﺑﺎﻟﺈﻧﺘﺮﻧﺖ ﺣﺎﻟﻲًا
+      ﻏﻴﺮ ﻣﺘﻮﻓﺮ ﻳﺮﺟﻰ اﻟﺘﺤﻘﻖ أو اﻟﻤﺤﺎوﻟﺔ ﻣﺮة أﺧﺮى.
+      `,
     },
     fields: {
       mobileNumber: 'رﻗﻢ اﻟﺠﻮال',
@@ -38,6 +42,7 @@ export const ar = {
       send: 'تسجيل',
       start: 'البدء',
       next: 'التالي',
+      tryAgain: 'ﺣﺎول ﻣﺮة اﺧﺮى',
     },
   },
 };

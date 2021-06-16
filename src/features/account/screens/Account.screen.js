@@ -47,6 +47,10 @@ const AccountScreen = ({navigation}) => {
               title="Bank Form"
               onPress={() => navigation.navigate('BankForm', {currentLang})}
             />
+            <Button
+              title="No Internet"
+              onPress={() => navigation.navigate('NoInternet', {currentLang})}
+            />
           </View>
           <View>
             {options.map(lang => {

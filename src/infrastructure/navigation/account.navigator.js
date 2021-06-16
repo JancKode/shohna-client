@@ -7,8 +7,8 @@ import CreateAccount from '../../features/account/screens/createAccount/createAc
 import OneTimePin from '../../features/account/screens/onetimePin/oneTimePin';
 import LoginSuccess from '../../features/account/screens/login/login-success';
 import AccountScreen from '../../features/account/screens/account.screen';
-
 import BankForm from '../../features/bank/screens/bank-form/bank-form';
+import NoInternet from '../../components/common/no-internet/no-internet';
 
 const Stack = createStackNavigator();
 
@@ -21,6 +21,7 @@ const AccountNavigator = () => {
       <Stack.Screen name="OneTimePin" component={OneTimePin} />
       <Stack.Screen name="LoginSuccess" component={LoginSuccess} />
       <Stack.Screen name="BankForm" component={BankForm} />
+      <Stack.Screen name="NoInternet" component={NoInternet} />
     </Stack.Navigator>
   );
 };

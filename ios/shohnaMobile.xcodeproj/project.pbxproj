@@ -532,7 +532,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shohna-v.0.0.1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brainvalley.shohnh.app;
 				PRODUCT_NAME = shohnaMobile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -558,7 +558,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shohna-v.0.0.1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brainvalley.shohnh.app;
 				PRODUCT_NAME = shohnaMobile;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

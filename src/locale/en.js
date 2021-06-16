@@ -14,6 +14,9 @@ export const en = {
       bankAgreement: `By continuing, I confirm that I have read and agreed to the terms
       Terms and Privacy Policy`,
       bankInfo: 'bank info',
+      noInternet: 'No internet connection',
+      noInternetInfo:
+        'Your internet connection is currently not available please check or try again.',
     },
     fields: {
       mobileNumber: 'mobile number',
@@ -34,6 +37,7 @@ export const en = {
       send: 'SEND',
       start: 'START',
       next: 'NEXT',
+      tryAgain: 'TRY AGAIN',
     },
   },
 };
